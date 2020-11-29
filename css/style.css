@@ -1,4 +1,9 @@
-/*#F5F4FA*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -37,6 +42,12 @@ a {
 }
 
 /* ========== HEADER ==========*/
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
 .nav-logo {
   font-family: var(--secondary-font-family);
   color: #000000;
@@ -51,6 +62,10 @@ a {
   color: var(--accent-text-color);
 }
 
+.nav-list {
+  display: flex;
+}
+
 .item-link {
   color: var(--primary-text-color);
   font-size: 14px;
@@ -62,6 +77,10 @@ a {
 
 .nav-accent {
   color: var(--accent-text-color);
+}
+
+.contacts {
+  display: flex;
 }
 
 .contacts-link {
