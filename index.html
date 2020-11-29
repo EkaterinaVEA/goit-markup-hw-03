@@ -5,37 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <nav class="nav">
-            <a class="nav-logo" href="./index.html">
-                <span class="logo-accent">Web</span>Studio</a>
+        <div class="container">
+            <nav class="nav">
+                <a class="nav-logo" href="./index.html">
+                    <span class="logo-accent">Web</span>Studio</a>
 
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a class="item-link nav-accent" href="./index.html">Студия</a>
-                </li>
-                <li class="nav-item">
-                    <a class="item-link" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="nav-item">
-                    <a class="item-link" href="#">Контакты</a>
-                </li>
-            </ul>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="item-link nav-accent" href="./index.html">Студия</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="item-link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="item-link" href="#">Контакты</a>
+                    </li>
+                </ul>
 
-            <ul class="contacts">
-                <li class="contacts-item">
-                    <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="contacts-item">
-                    <a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </nav>
+                <ul class="contacts">
+                    <li class="contacts-item">
+                        <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="contacts-item">
+                        <a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -47,98 +50,106 @@
 
         <!-- Advantage -->
         <section class="advantage">
-            <h2 class="visually-hidden">Достоинства</h2>
-            <ul class="advantage-list">
-                <li class="advantage-item">
-                    <h3 class="advantage-title">Внимание к деталям</h3>
-                    <p class="advantage-text">
-                        Идейные соображения, а также начало повседневной работы по формированию позиции.
-                    </p>
-                </li>
-                <li class="advantage-item">
-                    <h3 class="advantage-title">Пунктуальность</h3>
-                    <p class="advantage-text">
-                        Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-                    </p>
-                </li>
-                <li class="advantage-item">
-                    <h3 class="advantage-title">Планирование</h3>
-                    <p class="advantage-text">
-                        Равным образом консультация с широким активом в значительной степени обуславливает.
-                    </p>
-                </li>
-                <li class="advantage-item">
-                    <h3 class="advantage-title">Современные технологии</h3>
-                    <p class="advantage-text">
-                        Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-                    </p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="visually-hidden">Достоинства</h2>
+                <ul class="advantage-list">
+                    <li class="advantage-item">
+                        <h3 class="advantage-title">Внимание к деталям</h3>
+                        <p class="advantage-text">
+                            Идейные соображения, а также начало повседневной работы по формированию позиции.
+                        </p>
+                    </li>
+                    <li class="advantage-item">
+                        <h3 class="advantage-title">Пунктуальность</h3>
+                        <p class="advantage-text">
+                            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                        </p>
+                    </li>
+                    <li class="advantage-item">
+                        <h3 class="advantage-title">Планирование</h3>
+                        <p class="advantage-text">
+                            Равным образом консультация с широким активом в значительной степени обуславливает.
+                        </p>
+                    </li>
+                    <li class="advantage-item">
+                        <h3 class="advantage-title">Современные технологии</h3>
+                        <p class="advantage-text">
+                            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <!-- Services -->
         <section class="services">
-            <h2 class="services-title">Чем мы занимаемся</h2>
-            <ul class="services-list">
-                <li class="services-item">
-                    <img class="services-img" src="./images/wedo/wedo1.jpg" alt="Разработка веб-сайта" width="370" height="294">
-                </li>
-                <li class="services-item">
-                    <img class="services-img" src="./images/wedo/wedo2.jpg" alt="Разработка мобильных приложений" width="370" height="294">
-                </li>
-                <li class="services-item">
-                    <img class="services-img" src="./images/wedo/wedo3.jpg" alt="Разработка веб-дизайна" width="370" height="294">
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="services-title">Чем мы занимаемся</h2>
+                <ul class="services-list">
+                    <li class="services-item">
+                        <img class="services-img" src="./images/wedo/wedo1.jpg" alt="Разработка веб-сайта" width="370" height="294">
+                    </li>
+                    <li class="services-item">
+                        <img class="services-img" src="./images/wedo/wedo2.jpg" alt="Разработка мобильных приложений" width="370" height="294">
+                    </li>
+                    <li class="services-item">
+                        <img class="services-img" src="./images/wedo/wedo3.jpg" alt="Разработка веб-дизайна" width="370" height="294">
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <!-- Our Team -->
         <section class="team">
-            <h2 class="team-title">Наша команда</h2>
-            <ul class="team-list">
-                <li class="team-worker">
-                    <img class="worker-photo" src="./images/team/igor.jpg" alt="Игорь Демьяненко Дизайнер Продукции" width="270" height="260">
-                    <h3 class="worker-name">Игорь Демьяненко</h3>
-                    <p class="worker-post" lang="en">Product Designer</p>
-                </li>
-                <li class="team-worker">
-                    <img class="worker-photo" src="./images/team/olga.jpg" alt="Ольга Репина Фронтенд-разработик" width="270" height="260">
-                    <h3 class="worker-name">Ольга Репина</h3>
-                    <p class="worker-post" lang="en">Frontend Developer</p>
-                </li>
-                <li class="team-worker">
-                    <img class="worker-photo" src="./images/team/nikolay.jpg" alt="Николай Тарасов Маркетолог" width="270" height="260">
-                    <h3 class="worker-name">Николай Тарасов</h3>
-                    <p class="worker-post" lang="en">Marketing</p>
-                </li>
-                <li class="team-worker">
-                    <img class="worker-photo" src="./images/team/michail.jpg" alt="Михаил Ермаков Дизайнер ПИ" width="270" height="260">
-                    <h3 class="worker-name">Михаил Ермаков</h3>
-                    <p class="worker-post" lang="en">UI Designer</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="team-title">Наша команда</h2>
+                <ul class="team-list">
+                    <li class="team-worker">
+                        <img class="worker-photo" src="./images/team/igor.jpg" alt="Игорь Демьяненко Дизайнер Продукции" width="270" height="260">
+                        <h3 class="worker-name">Игорь Демьяненко</h3>
+                        <p class="worker-post" lang="en">Product Designer</p>
+                    </li>
+                    <li class="team-worker">
+                        <img class="worker-photo" src="./images/team/olga.jpg" alt="Ольга Репина Фронтенд-разработик" width="270" height="260">
+                        <h3 class="worker-name">Ольга Репина</h3>
+                        <p class="worker-post" lang="en">Frontend Developer</p>
+                    </li>
+                    <li class="team-worker">
+                        <img class="worker-photo" src="./images/team/nikolay.jpg" alt="Николай Тарасов Маркетолог" width="270" height="260">
+                        <h3 class="worker-name">Николай Тарасов</h3>
+                        <p class="worker-post" lang="en">Marketing</p>
+                    </li>
+                    <li class="team-worker">
+                        <img class="worker-photo" src="./images/team/michail.jpg" alt="Михаил Ермаков Дизайнер ПИ" width="270" height="260">
+                        <h3 class="worker-name">Михаил Ермаков</h3>
+                        <p class="worker-post" lang="en">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
     <footer class="footer">
-        <!-- Contacts-->
-        <a href="/" class="footer-link">
-            <span class="footer-logo">Web</span>Studio
-        </a>
-        <address class="address">
-            <ul class="address-list">
-                <li class="address-item">
-                    <a class="address-map" href="https://goo.gl/maps/bj7WodvELnyaLLuA9" target="_blank">г. Киев, пр-т Леси
-                        Украинки, 26</a>
-                </li>
-                <li class="address-item">
-                    <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="address-item">
-                    <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </address>
+        <div class="container">
+            <!-- Contacts-->
+            <a href="./index.html" class="footer-link">
+                <span class="footer-logo">Web</span>Studio
+            </a>
+            <address class="address">
+                <ul class="address-list">
+                    <li class="address-item">
+                        <a class="address-map" href="https://goo.gl/maps/bj7WodvELnyaLLuA9" target="_blank">г. Киев, пр-т Леси
+                            Украинки, 26</a>
+                    </li>
+                    <li class="address-item">
+                        <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="address-item">
+                        <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 
