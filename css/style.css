@@ -293,7 +293,7 @@ img {
   width: 620px;
   min-height: 39px;
   margin: auto;
-  padding: 94px 0 50px;
+  margin-bottom: 50px;
   justify-content: space-between;
 }
 
@@ -325,6 +325,7 @@ img {
 /* ====== PORTFOLIO PROJECTS ======== */
 .portfolio .container {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .projects {
   display: flex;
