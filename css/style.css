@@ -314,7 +314,8 @@ img {
   line-height: 1.62;
   letter-spacing: 0.03em;
   border-radius: 4px;
-  border: 1px solid #f5f4fa;
+  cursor: pointer;
+  border: none;
 }
 
 .filters-button:hover,
