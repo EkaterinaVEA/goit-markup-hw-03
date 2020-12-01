@@ -338,7 +338,6 @@ img {
   width: 370px;
   height: 404px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 
 .projects-list:nth-last-child(-n + 3) {
@@ -347,6 +346,9 @@ img {
 
 .projects-discription {
   padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .projects-name {
